@@ -1,0 +1,248 @@
+body {
+    background: linear-gradient(to top right, black, rgb(83, 83, 83));
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+main {
+    background-color: rgb(44, 42, 42);
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+.logo_inicio{
+    display: flex;
+    flex: 5;
+}
+
+.logo {
+    width: 265px;
+    height: 110px;
+    margin-left: 20px;
+    border-radius: 40%;
+    
+    
+}
+
+.assistencia{
+    display: flex;
+    flex: 7;
+
+
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 30px;
+    padding: 10px;
+    margin-left: 0%;
+    text-shadow: 2px 2px 5px rgb(48, 48, 48);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    color: white;
+    border: solid rgb(0, 0, 0);
+    background-color: rgb(141, 141, 141);
+    border-radius: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    
+}
+
+h3 {
+    background-color: rgb(167, 167, 167);
+    border: solid rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 30px;
+    display: inline-block;
+    margin-right: 60%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+ul {
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+hr {
+    border: solid rgb(54, 52, 52);
+}
+
+.notebooks_imgs{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.img-tecnico {
+    width: 300px;
+    height: 300px;
+    border: solid rgb(69, 107, 179);
+    border-radius: 35%;
+    margin-left: 50px;
+    box-shadow: 7px 0px 6px rgb(69, 107, 179);
+    
+}
+
+.bem-vindo {
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-left: 5%;
+    text-align: left;
+}
+
+.notebooks_imgs_reverso{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.celular-quebrado {
+    width: 300px;
+    height: 300px;
+    border: solid rgb(51, 202, 76);
+    border-radius: 35%;
+    margin-right: 50px;
+    box-shadow: -7px 0px 6px rgb(51, 202, 76);
+    display: flex;
+    
+}
+
+.mulher-feliz {
+    width: 300px;
+    height: 300px;
+    border: solid rgb(69, 107, 179);
+    border-radius: 35%;
+    margin-left: 50px;
+    box-shadow: 7px 0px 6px rgb(69, 107, 179);
+}
+
+.paragrafo {
+    margin-right: 50px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.texto-final{
+    margin-right: 50px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.fundo-celular {
+    background-image: url(../imgs/several-cell-phones-of-different-types-as-the-back-DHcWcfonQZa_EQdfbImWoA-6qDERnpyQ6-AqgsG2PAPIA.jpeg);
+    background-repeat: repeat;
+    background-size: 100%;
+    border: double 10px rgb(255, 255, 255);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.marcas-celular {
+    border: solid rgb(29, 27, 27);
+    border-radius: 30px;
+    margin: 30px;
+    margin-left: 24.5%;
+    width: 50%;
+}
+
+.final {
+    background: white;
+    border-top: solid black;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    position: relative;
+    z-index: 11;
+}
+
+.logo1 {
+    width: 20%;
+    margin-left: 60px;
+    display: inline;
+    border-radius: 40%;
+    
+}
+
+.siga-nos{
+    color: white;
+    border: solid rgb(0, 0, 0);
+    background-color: rgb(141, 141, 141);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+
+.inst{
+    width: 5.5%;
+    display: inline-block;
+    margin-right: 100px;
+    float: right;
+}
+
+.inst:hover{
+    background: rgb(209, 209, 209);
+    border-bottom: solid black;
+    border-top: solid black;
+    
+}
+
+.what{
+    width: 10%;
+    display: inline-block;
+    float: right;
+    margin-right: 40px;
+    margin-top: 12px;
+    margin-left: 40%;
+}
+
+.what:hover{
+    background: rgb(131, 131, 131);
+    border-bottom: solid black;
+    border-top: solid black;
+}
+
+address{
+    text-align: right;
+    margin-right: 60px;
+    margin-top: 0px;
+}
+
+.whats_fixo{
+    display: inline-block;
+    width: 80px;
+    position: fixed;
+    left: 88%;
+    top: 70%;
+    z-index: 10;
+    transition: 0.5s;
+}
+
+.whats_fixo:hover {
+    background: rgb(62, 218, 145);
+    border-radius: 40%;
+    border: solid green;
+    
+}
